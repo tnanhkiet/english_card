@@ -37,6 +37,13 @@ dependencies:
   english_words: ^4.0.0
   shared_preferences: ^2.0.15
   auto_size_text: ^3.0.0
+  like_button: ^2.0.4
+  flutter_launcher_icons: ^0.9.3
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
 
 dev_dependencies:
   flutter_test:
