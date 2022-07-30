@@ -129,7 +129,7 @@ class _HomePageState extends State<HomePage> {
                     _curentIndex = index;
                   });
                 },
-                itemCount: words.length >= 5 ? 6 : words.length,
+                itemCount: words.length > 5 ? 6 : words.length,
                 itemBuilder: (context, index) {
                   String firstLetter =
                       words[index].noun != null ? words[index].noun! : '';
